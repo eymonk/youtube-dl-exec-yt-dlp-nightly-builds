@@ -8,7 +8,7 @@ const PLATFORM_UNIX = 'unix'
 
 const YOUTUBE_DL_HOST =
   process.env.YOUTUBE_DL_HOST ??
-  'https://api.github.com/repos/yt-dlp/yt-dlp/releases/latest'
+  'https://api.github.com/repos/yt-dlp/yt-dlp-nightly-builds/releases/latest'
 
 const YOUTUBE_DL_DIR =
   process.env.YOUTUBE_DL_DIR ?? path.join(__dirname, '..', 'bin')
